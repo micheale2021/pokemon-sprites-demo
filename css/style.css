@@ -6,3 +6,19 @@
 .pokemon img{
     display: block;
 }
+
+#dark {
+    background-color: rgb(134, 139, 137);
+    width: 15px;
+    height: 15px;
+}
+
+#light {
+    background-color: rgb(235, 244, 240);
+    width: 15px;
+    height: 15px;   
+}
+
+h1 {
+    text-shadow: 20px 20px white;
+}

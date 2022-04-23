@@ -16,3 +16,19 @@ for (let i = 1; i <= 151; i++) {
     container.appendChild(pokemon)
 
 }
+
+const btndark = document.querySelector('#dark');
+btndark.addEventListener('click', function () {
+    document.body.style.backgroundColor = 'black';
+   
+});
+
+const h1 = document.querySelector('h1');
+h1.addEventListener('click', function () {
+    document.h1.style.color = 'white';
+});
+
+const btnlight = document.querySelector('#light');
+btnlight.addEventListener('click', function () {
+    document.body.style.backgroundColor = 'white';
+})
